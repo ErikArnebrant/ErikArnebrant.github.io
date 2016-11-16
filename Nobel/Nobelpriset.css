@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	padding:0%;
+	margin:0%;
+	text-align:center;
+}
+#Storbox{
+	background-color:#FFF;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+header{
+	background-color:#052F6D;
+	height:15%;
+	width:100%;
+	float:left;
+	font-size:36px;
+	color:#A66900;
+	font-family:"Helvetica";
+}
+nav{
+	background-color:#437DD4;
+	height:100%;
+	width:10%;
+	float:left;
+}
+ul{
+	list-style:none;
+	text-align:center;
+	background-color:#437DD4;
+	padding:0;
+	margin:0;
+}
+li{
+	line-height:20px;
+	height:100%;
+	width:100%;
+	
+}
+nav a {
+	color:black;
+	text-decoration: none;
+	font-size:18px;	
+}
+
+figure{
+	text-align:center;
+}
+article{
+	float:right;
+	height:80%;
+	width:90%;
+	text-align:left;
+}
+article a{
+	color:blue
+}
+
+	
