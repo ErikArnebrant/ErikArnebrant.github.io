@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<link href="Namnlös plats 2/Tredje-uppgift.css" rel="stylesheet" type="text/css">
+<meta charset="utf-8">
+<title>Namnlöst dokument</title>
+</head>
+
+<body>
+<header>
+<p id="tal"> </p>
+</header>
+<p> <b id="tal" </b> </p>
+    <input type="button" onClick="skrivin()" value="Skriv in ditt tal här" />
+<script>
+        function skrivin()
+        {
+			 var siffra =prompt("Skriv in ett tal","Till exempel 37");
+			 var tal =parseInt(siffra);
+			 if(isNaN(tal))
+				 {
+					 alert("Det där är inget tal");
+				 }
+				 else
+				 {
+					 document.getElementById("tal").innerHTML = tal + "?";
+				 }
+		}
+     </script>
+</body>
+</html>
