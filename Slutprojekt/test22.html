@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Namnlöst dokument</title>
+<style>
+	ul{
+		list-style:none;
+	}
+	li{
+		float: left
+	}
+	.dropdown{
+		position: absolute;
+		visibility: hidden;
+		opacity: 0;
+		transition: all 1s;
+		left: 0;
+	}
+	.content li:hover .dropdown{
+		visibility: visible;
+		opacity: 1;
+	}
+</style>
+</head>
+
+<body>
+	<ul class="content">
+    	<li>
+        	<span>hej</span>
+            <ul class="dropdown">
+            	<li><span>Dropdown content</span></li>
+            </ul>
+        </li>
+        <li></li>
+    </ul>
+</body>
+</html>

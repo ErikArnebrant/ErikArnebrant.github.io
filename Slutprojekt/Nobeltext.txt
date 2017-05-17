@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<link href="Nobelpriset.css" rel="stylesheet" type="text/css">
+<meta charset="utf-8">
+<title>Nobelpriset</title>
+</head>
+
+<body>
+	<div id="Storbox">
+        <header>
+            <h1>
+            	<b>Svenska nobelpristagare genom tiderna</b>
+            </h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="Nobelpriset2.html"> Startsida </a></li>
+                <li><a href="GustavDalen3.html"> Gustaf Dalén </a></li>
+                <li><a href="ManneSiegbahn2.html"> Manne Siegbahn </a></li>
+                <li><a href="HannesAlven4.html"> Hannes Alvén </a></li>
+                <li><a href="KaiMSiegbahn.htm"> Kai M Siegbahn </a></li>
+            </ul>
+        </nav>
+        <article>
+            <figure>
+            <img src="AlfredNobel.jpg" alt="Alfred Nobel">
+                <img src="Nobel.jpg" alt="Nobel">
+                <figcaption>
+                "Nobelpriset"
+                </figcaption>
+            </figure>
+        </article>
+	</div>
+</body>
+</html>
