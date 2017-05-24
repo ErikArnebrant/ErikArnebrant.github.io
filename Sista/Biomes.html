@@ -210,6 +210,16 @@ Scattered deep within the Grand Reef are hydrothermal vents, five in total.
 
 	</div>
 	<script>
+	var counter = 0;
+		$("#show").click(function(){
+			if(++counter%2 == 0){
+				$(this).text("Show Menu");	
+			}
+			else{
+				$(this).text("Hide Menu");
+			}
+			$("#menu").toggleClass("showtelefon");
+		});
 	var counter = 0; // to keep track of current slide
     $items = $('.diy-slideshow figure'); // a collection of all of the slides, caching for performance
     numItems = $items.length; // total number of slides
@@ -242,17 +252,6 @@ if('ontouchstart' in window){
     }
   });
 }
-        <!-- Script för meny till telefon !-->
-		var counter = 0;
-		$("#show").click(function(){
-			if(++counter%2 == 0){
-				$(this).text("Show Menu");	
-			}
-			else{
-				$(this).text("Hide Menu");
-			}
-			$("#menu").toggleClass("showtelefon");
-		});
 </script>
 </body>
 </html>
