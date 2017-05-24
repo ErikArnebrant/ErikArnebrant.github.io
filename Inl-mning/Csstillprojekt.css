@@ -317,6 +317,7 @@ li .emil{
 		padding-top:0;
 		background-color:transparent;
 		opacity:1;
+		border: none;
 	}
 	nav a{
 		width:100%;
@@ -325,6 +326,7 @@ li .emil{
 	}
     section{
         margin-top: 30%;
+	    border: none;
     }
 	article{
 		width:100%;
@@ -354,6 +356,7 @@ li .emil{
         text-align: center;
         font-size: 25px;
         color: black;
+	border: none;
     }
     footer img{
         height: auto;
