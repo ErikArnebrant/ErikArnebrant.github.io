@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+        <link href="Maps.css" type="text/css" rel="stylesheet">
+        <meta charset="utf-8">
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="Storbox">
+            <header>
+                <h1>
+                    Inferno
+                </h1>
+            </header>
+            <article>
+                <figure class="Inferno">
+                    <img class="test" src="Infernomap.png" alt="Inferno Map">
+                    <img class="Reddot1" src="Reddot.png" alt="Reddot">
+                </figure>
+                <div id="Infobox">
+                    <img class="Info" src="CTSmoke.jpg" alt="Smoke CT">
+                    <p>
+                        <b>Smoke from banana to make it harder for CT to watch the site</b>
+                    </p>
+                </div>
+            </article>
+        </div>
+    </body>
+    <script>
+        $( ".Reddot1" ).hover(
+        function() {
+            $( this ).toggleClass( "showInfobox" );
+        }, function() {
+            $( this ).toggleClass( "showInfobox" );
+        }
+        );
+    </script>
+</html>

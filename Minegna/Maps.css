@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    padding: 0;
+    margin: 0;
+}
+#Storbox{
+    height:100%;
+	width:100%;
+    overflow-y: scroll;
+	position:fixed;
+    background-image:url(Black%20patternwithlightning.jpg);
+    background-size: cover;
+}
+header{
+    height: 10%,
+}
+h1{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    font-style: italic;
+}
+article{
+    height: 80%;
+    width: 100%;
+}
+figure{
+    width: 15%;
+    height: auto;
+    float: left;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+figcaption{
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 25px;
+}
+section{
+    margin-left: 5%;
+}
+.Reddot1{
+    width: 20px;
+    z-index: 0;
+    position: absolute;
+    top: 21%;
+    left: 67%;
+}
+.test{
+    width: 120%;
+    z-index: 1;
+}
+.Inferno{
+    margin-left: 15%;
+    position: relative;
+}
+#Infobox{
+    background-color: grey;
+    height: 55%;
+    width: 30%;
+    border-radius: 20px;
+    border-style: solid;
+    margin-left: 40%;
+    border-width: 5px;
+    padding: 20px;
+    display: none;
+}
+.Info{
+    border-style: solid;
+    border-radius: 10px;
+}
+p{
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+.showInfoBox{
+    background-color: grey;
+    height: 55%;
+    width: 30%;
+    border-radius: 20px;
+    border-style: solid;
+    margin-left: 40%;
+    border-width: 5px;
+    padding: 20px;
+    
+}
